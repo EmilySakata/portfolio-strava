@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width,initial-scale=1">
+   <title>data analytics | strava project </title>
+   <link href="css/reset.css" rel="stylesheet"><!-- DO NOT EDIT THIS LINE. -->
+   <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+   <header>
+            <p id="home"></p>
+   </header>
+   <nav>
+         <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#overview">Overview</a></li>
+            <li><a href="#data-source">Data source</a></li>
+            <li><a href="#data-analysis--race-finish">Analysis</a>
+                  <ul>
+                     <li><a href="#data-analysis--race-finish">Data visualization</a></li>
+                     <li><a href="#conclusion">Conclusion</a></li>
+                  </ul>
+               </li>
+            </ul>
+         </nav>
+   <main>
+      <div>
+         <h1>the San Francisco Marathon performance analysis</h1>
+         <div><img src="img/gg-bw.jpg" alt=""><img src="img/gg-bw.jpg" alt=""><img src="img/gg-bw.jpg" alt=""></div>
+         <br>
+         <h2 id = "overview">Overview</h2>
+         <p>This project is a python data analysis project conducted to learn how runners performed in <strong> the San Francisco Marathon</strong> race of 2017. </p>
+         <p>In order to have an insightful understanding of runners' performance,the San Francisco Marathon race results and Strava applicaiton users' running records were used. Those information were gathered from the websites using techniques such as data scraping, data cleansing, and data visualization through python programing.</p>
+         <p>Following questions were used to understand the sampled data demographics, significans of any outliers, and potential reasons behind how runners performed on the marathon race day.  </p>
+         <h2 id="data-source"> Key questions: </h2>
+         <ul>
+            <li>What does the Strava user population look like compared to overall marathon runners?</li>
+            <li>How did the Strava users perform at the race day compared to overall marathon runners?</li>
+            <li>How did top 20 Strava users perform on the race day?</li>
+            <li>What can we do to race for better performance?</li>
+         </ul>
+         </div>
+         <div>
+         <h2 id="data-analysis--race-finish"> Data source </h2>
+         <p>Total of 1317 user running data was captured using data scraping technique to perform data gathering from the Strava website as well as the official San Francisco Marathon result page. The inforamtion was first formatted, and then used to learn about the different demographics of the Strava users compared to the 2017 San Francisco Marathon official results.</p>
+         </div>
+
+         <div>
+         <h2 >Strava user demographics</h2>
+         <p> Using the official San Francisco marathon race result, scatter plot was produced to show the runners' overall race results by gender.</p>
+         <p> From this analysis, the scatter plot is most dense between overall race result of 2:46:40 to 6:56:40.</p>
+         <p> There were no apparent observation of race performance based on gender, however there is a positive corrolation between runners' age and the overall time to complete the marathon. </p>
+         <p> We observed that the younger the runner is, the more likely the overall performance result in faster completion time.</p>
+         <p> Reference: SFmarathon2017-Final.ipynb </p>
+         </div>
+         <div>
+         <h2 > Race completion of Strava users by age and gender</h2>
+         <p> Using the official San Francisco marathon race result, scatter plot was produced to show the runners' overall race results by gender.</p>
+         <p> From this analysis, the scatter plot is most dense between overall race result of 2:46:40 to 6:56:40.</p>
+         <p> There were no apparent observation of race performance based on gender, however there is a positive corrolation between runners' age and the overall time to complete the marathon. </p>
+         <p> We observed that the younger the runner is, the more likely the overall performance result in faster completion time.</p>
+         <p> Reference: Strava_SF2017_Finishtime.ipynb </p>
+         </div>
+         <div>
+         <h2 > Performance comparison between Strava users and overall race result</h2>
+         <p>Race results for SF marathon has normal distribution curve.
+            Strava users runs faster than average marathon population but Strava users have higher spread in thier finish time compared to average San Francisco marathon participants.
+           <ul>
+            <li> SF race mean : ‘04:45:37’</li>
+            <li>SF race standard deviation : ‘00:52:41’</li>
+            <li>Strava mean: ‘04:26:09’</li>
+            <li>Strava standard deviation : ‘00:54:26’</li>
+            </ul>
+            <br>
+            <p> Reference: Merged Strava and SFmarathon-Final.ipynb</p>
+         </div>
+         <div>
+         <h2 id="conclusion" >Elite runner result</h2>
+         <p>some text</p>
+         </div>
+         <div>
+         <h2 > Conclusion</h2>
+         <p>some text</p>
+         </div>
+      </div>
+   </main>
+   <footer>
+   </footer>
+</body>
+</html>
