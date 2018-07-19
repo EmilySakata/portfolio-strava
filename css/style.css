@@ -145,4 +145,14 @@ p {
   font-size: 20px;
 }
 
+.contribution {
+  display: block;
+  text-align: center;
+  margin-left: -10px;
+  font-size: 20px;
+}
+.contribution img {
+  width: 18px;
+}
+
 /*# sourceMappingURL=style.css.map */
