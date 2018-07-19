@@ -1,0 +1,43 @@
+//define variables
+
+//grid style - define the size of columnm and the gutter to devine the overall screensize
+$grid--column-width: 66px;
+$grid--gutter-width: ($grid--column-width/3);      // 20 use the third rules to make the gutter width and column width
+$grid--unit: ($grid--column-width + $grid--column-width); //80
+$grid--column-count: 15;// total viewport width 1200
+
+$width--card: (3 * $grid--unit); // deviding to 5 sections
+//border style
+$border--width: 1px;
+
+// breaking points for the page responsiveness
+
+$breakpoint--tablet: (5 * $grid--unit);
+$breakpoint--desktop: (10 * $grid--unit);
+
+//color
+
+$color--border: #000;
+$color--background: #CFF0FF;
+$color--nav--background: #55CBFF;
+$color--nav--hover: #3F93BD;
+$color--main-bg: #55CBFF;
+
+
+// $sub-nav-count to 3.
+$sub-nav-count:  3;
+$width-nav-item: 150px;
+$width-nav:      $width-nav-item * $sub-nav-count;
+$border--width: 1px;
+
+
+// This variable defines the uniform height of each nav item.
+$height-nav-item: 48px;
+
+// Increase 0 to uniformly change the height of each inner nav item.
+$height-inner-list-items: ($height-nav-item + 0);
+
+//font imported.
+
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes"); //font for h1
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Great+Vibes")
