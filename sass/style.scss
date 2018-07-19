@@ -126,6 +126,10 @@ footer{
    // border: $border--width solid $color--border;
    height:  80px;
    display: block;
+   font-size: 16px;
+   margin-right: 10%;
+   margin-top:50px;
+
 }
 
 h1{
@@ -146,5 +150,14 @@ img {
 p{
    font-family: 'Crimson Text', serif;
    line-height: 25px;
-   font-size: 20px
+   font-size: 20px;
+}
+.contribution{
+   display: block;
+   text-align: center;
+   margin-left: -10px;
+   font-size: 20px;
+   img{
+      width: 18px;
+   }
 }
