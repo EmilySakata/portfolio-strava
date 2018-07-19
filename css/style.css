@@ -118,7 +118,6 @@ footer {
   height: 80px;
   display: block;
   font-size: 16px;
-  margin-right: 10%;
   margin-top: 50px;
 }
 
@@ -145,14 +144,33 @@ p {
   font-size: 20px;
 }
 
+table {
+  object-position: center;
+  border-spacing: 2rem;
+  margin-left: 20%;
+}
+table td {
+  text-align: center;
+  vertical-align: middle;
+}
+table th {
+  padding: 2px;
+  border-bottom: solid #55CBFF;
+}
+
 .contribution {
   display: block;
   text-align: center;
   margin-left: -10px;
   font-size: 20px;
+  line-height: 30px;
 }
 .contribution img {
   width: 18px;
+}
+
+.opacity {
+  filter: opacity(45%);
 }
 
 /*# sourceMappingURL=style.css.map */
