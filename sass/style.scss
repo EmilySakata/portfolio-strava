@@ -138,14 +138,13 @@ ul{
    line-height: 25px;
    font-size: 20px
 }
-img {
-      width: ($grid--unit*2);
-   }
+
 p{
    font-family: 'Crimson Text', serif;
    line-height: 25px;
    font-size: 20px;
 }
+
 table {
    object-position: center;
    border-spacing: 2rem;
@@ -153,12 +152,14 @@ table {
    td{
       text-align: center;
       vertical-align: middle;
+      border-bottom: 1px solid $color--nav--background;
    }
    th{
       padding:2px;
-      border-bottom: solid $color--nav--background;
+      border-bottom: 2px solid $color--nav--background;
    }
 }
+
 .contribution{
    display: block;
    text-align: center;
@@ -169,6 +170,7 @@ table {
       width: 18px;
    }
 }
+
 .opacity{
    filter:opacity(45%);
 }
