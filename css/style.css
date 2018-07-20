@@ -1,22 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Great+Vibes");
 @import url("https://fonts.googleapis.com/css?family=Crimson+Text|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Crimson+Text|Great+Vibes");
 * {
   margin: 0;
   padding: 0;
-}
-
-header {
-  height: 20px;
-  display: block;
 }
 
 nav {
   border-radius: 5px;
   color: #888;
   position: fixed;
-  width: 450px;
+  width: 600px;
   height: 48px;
   margin-right: 10px;
+  margin-top: -80px;
   text-align: center;
   overflow: hidden;
 }
@@ -24,6 +21,7 @@ nav a {
   display: block;
   width: 150px;
   line-height: 48px;
+  text-decoration: none;
 }
 nav a:hover {
   background-color: white;
@@ -46,6 +44,8 @@ nav > ul > li {
   -ms-transition: all 0.2s;
   -o-transition: all 0.2s;
   transition: all 0.2s;
+  font-family: 'Crimson Text', serif;
+  text-decoration: none;
 }
 nav > ul > li:hover > ul {
   visibility: visible;
@@ -108,10 +108,12 @@ main div {
     display: none;
   }
 }
-main div > h2 {
+
+div > h2 {
   margin-top: 50px;
   font-size: 30px;
   font-weight: bold;
+  padding: 5px;
 }
 
 footer {
@@ -122,20 +124,17 @@ footer {
 }
 
 h1 {
-  margin-top: 100px;
+  margin-top: 20px;
   font-size: 40px;
   text-align: justify;
   font-family: 'Great Vibes', cursive;
+  padding: 5px;
 }
 
 ul {
   margin-left: 50px;
   line-height: 25px;
   font-size: 20px;
-}
-
-img {
-  width: 264px;
 }
 
 p {
@@ -152,10 +151,11 @@ table {
 table td {
   text-align: center;
   vertical-align: middle;
+  border-bottom: 1px solid #55CBFF;
 }
 table th {
   padding: 2px;
-  border-bottom: solid #55CBFF;
+  border-bottom: 2px solid #55CBFF;
 }
 
 .contribution {
@@ -170,7 +170,22 @@ table th {
 }
 
 .opacity {
+  width: 264px;
   filter: opacity(45%);
+}
+
+figure {
+  text-align: center;
+  font-style: italic;
+  font-size: smaller;
+  text-indent: 0;
+  border: thin silver solid;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figure > img {
+  width: 50%;
+  height: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
