@@ -13,6 +13,7 @@ nav{
    width: $width-nav;
    height: $height-nav-item;
    margin-right: 10px;
+   margin-top: -80px;
    text-align: center;
    overflow: hidden;
 
@@ -20,6 +21,7 @@ nav{
       display: block;
       width: $width-nav-item;
       line-height: $height-nav-item;
+      text-decoration: none;
 
       &:hover {
          background-color: lighten($color--main-bg, 40%);
@@ -44,7 +46,8 @@ nav{
          -ms-transition: all 0.2s;
          -o-transition: all 0.2s;
          transition: all 0.2s;
-
+         font-family: 'Crimson Text', serif;
+         text-decoration: none;
          &:hover{
             > ul{
                visibility: visible;
