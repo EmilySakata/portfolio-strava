@@ -70,7 +70,7 @@ nav{
 body{
    background-color: $color--background;
    width: ($grid--unit * $grid--column-count);
-   display:block;
+   display:flex;
 
    @media (max-width: ($breakpoint--desktop + $grid--unit)){
       width: (10 * $grid--unit);
