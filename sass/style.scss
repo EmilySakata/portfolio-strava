@@ -164,9 +164,9 @@ table {
 .contribution{
    display:block;
    text-align: center;
-   margin-left: -10px;
    font-size: 20px;
-   line-height: 30px;
+   margin-top: 0px;
+   line-height: 25px;
    img{
       width: 18px;
    }
@@ -176,7 +176,6 @@ table {
    width: ($grid--unit*2);
    filter:opacity(45%);
 }
-
 figure {
      text-align: center;
      font-style: italic;
