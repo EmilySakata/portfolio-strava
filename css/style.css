@@ -13,7 +13,7 @@ nav {
   width: 600px;
   height: 48px;
   margin-right: 10px;
-  margin-top: -80px;
+  margin-top: -50px;
   text-align: center;
   overflow: hidden;
 }
@@ -64,7 +64,7 @@ nav > ul > li > ul a {
 body {
   background-color: #CFF0FF;
   width: 1980px;
-  display: block;
+  display: flex;
 }
 @media (max-width: 1452px) {
   body {
@@ -113,14 +113,14 @@ div > h2 {
   margin-top: 50px;
   font-size: 30px;
   font-weight: bold;
-  padding: 5px;
+  font-family: 'Great Vibes', cursive;
 }
 
 footer {
   height: 80px;
-  display: block;
   font-size: 16px;
   margin-top: 50px;
+  display: block;
 }
 
 h1 {
@@ -161,9 +161,9 @@ table th {
 .contribution {
   display: block;
   text-align: center;
-  margin-left: -10px;
   font-size: 20px;
-  line-height: 30px;
+  margin-top: 0px;
+  line-height: 25px;
 }
 .contribution img {
   width: 18px;
