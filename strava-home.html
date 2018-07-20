@@ -56,16 +56,22 @@
             <p>San Francisco marathon race result: <a href=" https://www.runraceresults.com/Secure/RaceResults.cfm?ID=RCLF2017">San Francisco official marathon</a>
             <p>San Francisco marathon Strava race result: <a href="https://www.strava.com/running-races/2017-san-francisco-marathon">Strava data</a>
          </div>
-
          <!-- provide margin for the link to be in a position within the page -->
          <div id="data-analysis" style = "margin-top:10px;"></div>
          <div>
-         <h2 >Strava user demographics</h2>
-         <p> Using the official San Francisco marathon race result, scatter plot was produced to show the runners' overall race results by gender.</p>
-         <p> From this analysis, the scatter plot is most dense between overall race result of 2:46:40 to 6:56:40.</p>
-         <p> There were no apparent observation of race performance based on gender, however there is a positive corrolation between runners' age and the overall time to complete the marathon. </p>
-         <p> We observed that the younger the runner is, the more likely the overall performance result in faster completion time.</p>
-         <p> Reference: SFmarathon2017-Final.ipynb </p>
+            <h2>Strava user demographics</h2>
+            <p>We first wanted to understnad what type of sampled demographics we are looking at when using Strava information compared to the overall population of the San Francisco marathon participants.
+               When we looked at the strava user population, we found that close to 19% of the total marathon runners were using Strava to monitor thier race performance.
+               Further more when looking the population by strava users by gender, the Strava users were made by 14% male and 4.9% female popultation compared to the total runners.
+               From this data we learned that compared to the overall race participants, where the population is made by 64.1% male and 35.9% female, the Strava users had 74% and 26% respectively. This result in Strava users having higher ratio of male runners compared to the overall sampled population.
+            </p>
+
+         </div>
+         <div class="figure">
+            <figure>
+               <img src="img/gender-demographics.png" alt="">
+               <figcaption>Strava user demographics compared to overall population</figcaption>
+            </figure>
          </div>
          <div>
          <h2 > Race completion of Strava users by age and gender</h2>
