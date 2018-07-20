@@ -173,5 +173,6 @@ table {
 }
 
 .opacity{
+   width: ($grid--unit*2);
    filter:opacity(45%);
 }
