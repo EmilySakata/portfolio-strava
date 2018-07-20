@@ -25,11 +25,10 @@ $color--main-bg: #55CBFF;
 
 
 // $sub-nav-count to 3.
-$sub-nav-count:  3;
+$sub-nav-count:  4;
 $width-nav-item: 150px;
 $width-nav:      $width-nav-item * $sub-nav-count;
 $border--width: 1px;
-
 
 // This variable defines the uniform height of each nav item.
 $height-nav-item: 48px;
@@ -39,5 +38,6 @@ $height-inner-list-items: ($height-nav-item + 0);
 
 //font imported.
 
-@import url("https://fonts.googleapis.com/css?family=Great+Vibes"); //font for h1
-@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Great+Vibes")
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Great+Vibes");
+@import url("https://fonts.googleapis.com/css?family=Arimo|Crimson+Text|Great+Vibes")
